@@ -1,0 +1,484 @@
+{
+ "slug": "servisdvere",
+ "zdroj_url": "https://www.servisdvere.cz",
+ "firma": "Servis dveří Praha",
+ "obor": [
+  "stavebnictví a řemesla",
+  "umění a fotografie"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "servisdvere@seznam.cz"
+  ],
+  "telefony": [
+   "+420 728 252 929",
+   "728 252 929"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://business.facebook.com/ThemeRexStudio/",
+   "https://www.instagram.com/themerex_net/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.servisdvere.cz/wp-content/uploads/2017/08/cropped-ChatGPT-Image-7.-9.-2026-20_56_51.png",
+  "rozmery": [
+   512,
+   512
+  ]
+ },
+ "barvy": {
+  "css_promenne": {
+   "e-global-color-primary": "#111111"
+  },
+  "z_css": [
+   "#43b049",
+   "#1578f7",
+   "#cf2d20",
+   "#f5b301",
+   "#003388",
+   "#111144"
+  ],
+  "z_loga": [
+   "#c6050b"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#c6050b",
+   "#43b049",
+   "#1578f7"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.png",
+   "url": "https://www.servisdvere.cz/wp-content/uploads/2017/08/cropped-ChatGPT-Image-7.-9.-2026-20_56_51.png",
+   "sirka": 512,
+   "vyska": 512,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://www.servisdvere.cz/wp-content/uploads/2017/08/att._1Co-LklwgSfOPOKROlkNxsm2DChLz9IDgz5zkmSx4M.jpg",
+   "sirka": 1024,
+   "vyska": 1024,
+   "alt": "img"
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://www.servisdvere.cz/wp-content/uploads/2026/10/cdad6465-ef5d-4516-a68a-257a85df1621.jpg",
+   "sirka": 1536,
+   "vyska": 2048,
+   "alt": "Technik při odborném servisu interiérových dveří"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.png",
+   "url": "https://www.servisdvere.cz/wp-content/uploads/2017/08/ChatGPT-Image-7.-9.-2026-20_56_51.png",
+   "sirka": 1254,
+   "vyska": 1254,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Home",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "Oprava a servis interiérových dveří v Praze",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h1",
+   "text": "Oprava a servis interiérových dveří v Praze",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Dveře nefungují? Přijedeme je opravit.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Oprava a servis interiérových dveří do 24 hodin",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Co říkají zákazníci",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Opravujeme pouze interiérové dveře",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Jaké interiérové dveře servisujeme?",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Oprava klasických a bezfalcových dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Servis posuvných dveří na stěnu",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Oprava posuvných dveří do pouzdra",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Servis skleněných interiérových dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Oprava pantů, klik, zámků a kování",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nejčastější opravy interiérových dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Rychlý servis interiérových dveří v Praze",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Kolik stojí oprava interiérových dveří?",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Seřízení dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Oprava pantů",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Posuvné dveře",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Jak probíhá oprava interiérových dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Napíšete nebo zavoláte",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Domluvíme termín",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Dveře opravíme",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Běžný servis dveří zpravidla do 24 hodin",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Proč si vybrat ServisDvere.cz?",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Další zkušenosti zákazníků",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "⚠️ Nečekejte, až se interiérové dveře poškodí víc",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Nejsme zámečnická pohotovost",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Neprovádíme:",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Objednejte si opravu interiérových dveří v Praze",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Naše služby",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Mohlo by se vám hodit",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Služby Opravy interiérových dveří Opravy posuvných dveří Opravy dveří na stěnu Opravy dveří do pouzdra Oprava bezfalcových dveří v Praze Realizace",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Opravy posuvných dveří Opravy dveří na stěnu Opravy dveří do pouzdra",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Služby Opravy interiérových dveří Opravy posuvných dveří Opravy dveří na stěnu Opravy dveří do pouzdra Oprava bezfalcových dveří v Praze Realizace",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Opravy posuvných dveří Opravy dveří na stěnu Opravy dveří do pouzdra",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dveře drhnou, nejdou zavřít\n        nebo nefunguje posuvný mechanismus? Provádíme odborné opravy, seřízení\n      a servis interiérových dveří\n      a zárubní přímo u zákazníků\n      v Praze a okolí.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Provádíme odborný servis, opravy a seřízení interiérových dveří v bytech,\n      rodinných domech, kancelářích i komerčních prostorách po celé Praze a v\n      blízkém okolí.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pokud jsou interiérové dveře zablokované nebo situace nesnese odklad,\n      nabízíme podle aktuální dostupnosti technika urgentní výjezd s možností\n      příjezdu již do 60 minut.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Běžné opravy a servisní zásahy řešíme zpravidla do 24 hodin.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potřebujete seřídit dveře, opravit posuvný systém nebo vyměnit\n        kování? Pošlete nám popis závady a fotografie dveří.\n        Předem vám sdělíme orientační cenu opravy.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "⭐ Rychlá oprava interiérových dveří bez zbytečné výměny",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Dveře nešly zavřít, opraveno za 2 hodiny. Super domluva.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Jsme specializovaný technický servis interiérových dveří a zárubní.\n          Nejsme zámečnická pohotovost ani servis oken, vstupních nebo\n          bezpečnostních dveří.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Díky úzkému zaměření dokážeme určit skutečnou příčinu závady\n          a navrhnout vhodné řešení. Pokud je oprava technicky možná,\n          snažíme se nejprve zachránit a správně seřídit stávající dveře\n          bez jejich zbytečné výměny.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Specializujeme se výhradně na servis a opravy interiérových dveří\n        a zárubní. Ať už jde o klasické, bezfalcové, posuvné nebo skleněné dveře,\n        pomůžeme najít příčinu problému a navrhnout vhodné řešení.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Seřízení dveřního křídla, pantů, zámků, klik a dalších částí\n          klasických i bezfalcových interiérových dveří.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Opravy a seřízení pojezdů, vedení a dalších částí posuvných\n          dveří. Řešíme drhnutí, hlučnost i problémy s pohybem dveří.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Servis dveří zajíždějících do stavebního pouzdra včetně problémů\n          s pojezdy, vedením a pohybem dveřního křídla.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Seřízení a opravy kování, pantů, klik a dalších komponentů\n          skleněných interiérových dveří.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Řešíme uvolněné nebo poškozené panty, nefunkční kliky,\n          zámky i další části dveřního kování.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dveře do pouzdra se zadrhávají nebo nejdou vysunout",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Správné seřízení nebo výměna poškozeného dílu bývá\n            rychlejším a levnějším řešením.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zablokovaly se interiérové dveře? Nejdou otevřít dveře do\n          koupelny, toalety, pokoje nebo kanceláře?",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pokud situace nesnese odklad, zavolejte nám. Podle aktuální\n          dostupnosti technika a dopravní situace v Praze nabízíme\n          možnost příjezdu již do 60 minut.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Urgentní výjezd se vztahuje výhradně na problémy s interiérovými\n          dveřmi. Neprovádíme nouzové otevírání vstupních dveří do bytů\n          ani zámečnické práce.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cena záleží na typu závady. Ve většině případů jde o menší opravu nebo seřízení.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Přesnou cenu vám řekneme po domluvě podle konkrétního problému.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Většinou se snažíme přijet co nejdříve, často do 24 hodin.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spolehlivý servis interiérových dveří v Praze a blízkém okolí.\n        Bez zbytečného čekání a s jasným vysvětlením závady.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pokud se nejedná o naléhavou situaci, běžné opravy a seřízení\n          interiérových dveří řešíme zpravidla do 24 hodin.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Při objednání nám stručně popište závadu. Pokud je to možné,\n          pošlete nám také fotografie dveří, pantů, zámku nebo posuvného\n          systému. Díky tomu můžeme lépe určit pravděpodobnou příčinu\n          problému a připravit se na opravu.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Opravujeme klasické, bezfalcové, posuvné i skleněné dveře",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Známe různé typy skrytých pantů, pojezdů a stavebních pouzder",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "V naléhavých případech nabízíme možnost urgentního výjezdu",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nejprve hledáme možnost opravy, nikoliv zbytečné výměny dveří",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Před zahájením práce vysvětlíme závadu a navrhneme vhodné řešení",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nejčastěji řešíme interiérové dveře, které drhnou, nejdou zavřít nebo špatně jezdí.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Rychlá reakce, přijel ještě ten den. Dveře zase fungují, jak mají.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Profesionální přístup, vše vysvětleno. Oprava hotová za chvíli.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Dveře vrzaly a špatně se zavíraly. Teď jsou jako nové.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Vyřešil problém, který jiní odmítli. Velká spokojenost.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "„Přijel přesně na čas a vše opravil během jedné návštěvy.“",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Když interiérové dveře drhnou, nedoléhají nebo jdou špatně zavřít, může se postupně poškodit zárubeň, panty nebo posuvný systém.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Specializujeme se pouze na servis, opravy a seřízení interiérových dveří.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potřebujete opravit, seřídit nebo zprovoznit interiérové dveře?\n          Zavolejte našemu technikovi nebo odešlete nezávaznou poptávku.\n          Stručně popište závadu a pokud je to možné, přiložte také fotografie dveří a poškozených částí.",
+   "zdroj": "https://www.servisdvere.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potřebujete opravit interiérové nebo posuvné dveře? Jsme odborný servis interiérových dveří a zárubní působící po celé Praze.",
+   "zdroj": "https://www.servisdvere.cz/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 4, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Servis a opravy interiérových, posuvných, bezfalcových a skleněných dveří v Praze. rychlý výjezd možný do 60 minut, běžný servis do 24 hodin."
+}

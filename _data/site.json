@@ -1,0 +1,30 @@
+{
+  "slug": "servisdvere",
+  "nazev": "Servis dveří Praha",
+  "url": "https://webhunter-navrhy.github.io/servisdvere/",
+  "base": "/servisdvere/",
+  "lang": "cs",
+  "popis": "Servis a opravy interiérových dveří v Praze: seřízení, posuvné dveře, bezfalcové dveře, obložkové zárubně. Běžný servis do 24 hodin, ceny od 600 Kč.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og.jpg",
+  "logo": "logo.png",
+  "theme_color": "#14110f",
+  "typ": "LocalBusiness",
+  "ico": "74119893",
+  "kontakt": {
+    "email": "servisdvere@seznam.cz",
+    "telefon": "+420 728 252 929",
+    "adresa": {"ulice": "", "psc": "", "mesto": "Praha", "zeme": "CZ"}
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "od 600 Kč",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Poptávka servisu dveří z webu"},
+  "nav": [
+    {"text": "Služby", "href": "#sluzby"},
+    {"text": "Ceník", "href": "cenik-praci/"},
+    {"text": "Poptávka s fotkou", "href": "cenova-kalkulace/"},
+    {"text": "Kontakt", "href": "kontakt/"}
+  ]
+}

@@ -1,0 +1,17 @@
+<form class="formular formular-foto" method="post" data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}" enctype="multipart/form-data">
+  <label>Co se s dveřmi děje
+    <select name="typ">
+      {% for kk in data.sluzby.poradi %}<option>{{ data.sluzby.s[kk].typ_poptavky }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Popis závady <textarea name="zprava" rows="4" required placeholder="Např. dveře drhnou o podlahu, nejdou zavřít…"></textarea></label>
+  <label>Fotky závady (max. 3) <input name="foto" type="file" accept="image/*" multiple data-max="3"></label>
+  <label>Jméno <input name="jmeno" autocomplete="name" required></label>
+  <label>Telefon <input name="telefon" type="tel" autocomplete="tel" required></label>
+  <label>E-mail <input name="email" type="email" autocomplete="email"></label>
+  <label>Městská část / lokalita <input name="lokalita" placeholder="Např. Praha 6"></label>
+  <div class="past" aria-hidden="true"><label>Nevyplňovat <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+  <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+  <button type="submit">Poslat poptávku</button>
+  <p class="formular-stav" role="status" aria-live="polite"></p>
+</form>

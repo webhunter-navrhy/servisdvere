@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% set titulek = 'Poptávka servisu dveří s fotkou závady – cena předem | ' ~ site.nazev %}
+{% set popis = 'Pošlete fotku závady dveří a popis. Řekneme pravděpodobnou příčinu a orientační cenu ještě před výjezdem. Praha a okolí.' %}
+{% set cesta = 'cenova-kalkulace/' %}
+{% block obsah %}
+<section class="hero hero-sluzba"><div class="wrap">
+  <p class="stitek">Poptávka a kalkulace</p>
+  <h1>Pošlete fotku závady, řekneme cenu předem</h1>
+  <p class="perex">Z popisu a fotek umíme obvykle určit pravděpodobnou příčinu i orientační cenu ještě před výjezdem. Konečnou cenu odsouhlasíte před zahájením práce.</p>
+</div></section>
+<section class="sekce"><div class="wrap dva">
+  <div>{% include "_formular_foto.html" %}</div>
+  <aside class="kar">
+    <h2>Rychleji telefonem</h2>
+    <p><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a></p>
+    <p class="mala">Zablokované dveře? Nabízíme urgentní výjezd až do 60 minut, podle dostupnosti technika.</p>
+    <h3>Orientační ceny včetně DPH</h3>
+    <ul class="odkazy" role="list">
+      <li>Diagnostika na místě od 600 Kč</li>
+      <li>Seřízení dveří od 1 400 Kč</li>
+      <li>Posuvné dveře od 1 700 Kč</li>
+      <li>Kování od 690 Kč</li>
+    </ul>
+    <p class="mala"><a href="{{ url('cenik-praci/') }}">Celý ceník</a></p>
+  </aside>
+</div></section>
+{% endblock %}

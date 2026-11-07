@@ -1,0 +1,66 @@
+{
+  "url": "http://localhost:8765/",
+  "ok": false,
+  "chyby": [
+    "Horizontální přetečení na šířce 390: scrollWidth 980 > 390. Prvky: ",
+    "Horizontální přetečení na šířce 360: scrollWidth 980 > 360. Prvky: ",
+    "Chybí meta description",
+    "Chybí JSON-LD (schema.org)",
+    "Chybí og:image",
+    "Chybí meta viewport"
+  ],
+  "varovani": [
+    "Dotykové cíle <40 px na mobilu: 4× (např. a \"burzova@\" 66×18; a \"propozice-byiv-next@\" 144×18; a \"sk-domsprava@\" 105×18; a \"sk-extra/\" 56×18)"
+  ],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 980,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 980,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.0,
+    "snimku_PC": 0,
+    "preneseno_mobil_MB": 0.0,
+    "snimku_mobil": 0,
+    "seo": {
+      "title": "Directory listing for /",
+      "description": null,
+      "lang": "en",
+      "h1": 1,
+      "jsonld": [],
+      "robots": null,
+      "og_image": null,
+      "bez_v": [],
+      "canonical": false,
+      "viewport": false
+    },
+    "maly_dotykovy_cil": 4,
+    "font_nadpis": "Times",
+    "font_text": "Times",
+    "podstranky": {
+      "stranek": 51,
+      "obrazku": 250
+    }
+  }
+}

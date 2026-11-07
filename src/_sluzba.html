@@ -1,0 +1,61 @@
+{% extends "_base.html" %}
+{% set s = data.sluzby.s[k] %}
+{% set titulek = s.titulek %}
+{% set popis = s.popis %}
+{% set cesta = k ~ '/' %}
+{% block obsah %}
+<section class="hero hero-sluzba">
+  <div class="wrap">
+    <p class="stitek">{{ s.stitek }}</p>
+    <h1>{{ s.h1 }}</h1>
+    <p class="perex">{{ s.perex }}</p>
+    <div class="cta">
+      <a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a>
+      <a class="tlacitko druhe" href="{{ url('cenova-kalkulace/') }}">Poslat fotku závady</a>
+    </div>
+    <p class="cena-od"><span>{{ s.cena.nadpis }} od</span> <strong>{{ s.cena.od }}</strong></p>
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap dva">
+    <div>
+      <h2>{{ s.zavady_nadpis }}</h2>
+      <ul class="seznam" role="list">{% for z in s.zavady %}<li><h3>{{ z.t }}</h3><p>{{ z.p }}</p></li>{% endfor %}</ul>
+    </div>
+    <aside class="kar">
+      {{ img('technik.jpg', 'Technik servisu dveří při práci', sizes='(min-width: 60rem) 28rem, 100vw') }}
+      <p class="cena-pozn"><strong>{{ s.cena.nadpis }}: od {{ s.cena.od }}</strong><br>{{ s.cena.pozn }}</p>
+    </aside>
+  </div>
+</section>
+<section class="sekce tmava">
+  <div class="wrap">
+    <h2>{{ s.proc_nadpis }}</h2>
+    <ul class="tri" role="list">{% for z in s.proc %}<li><h3>{{ z.t }}</h3><p>{{ z.p }}</p></li>{% endfor %}</ul>
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap uzky">
+    <h2>Jak to probíhá</h2>
+    <ol class="kroky" role="list">
+      <li><strong>Pošlete fotku nebo zavolejte.</strong> Stačí krátký popis závady.</li>
+      <li><strong>Řekneme příčinu a cenu.</strong> Orientační cenu často známe ještě před výjezdem.</li>
+      <li><strong>Přijedeme.</strong> Běžný servis zpravidla do 24 hodin.</li>
+      <li><strong>Opravíme na místě.</strong> Cenu odsouhlasíte před zahájením práce.</li>
+    </ol>
+  </div>
+</section>
+<section class="sekce svetla">
+  <div class="wrap uzky">
+    <h2>Časté otázky</h2>
+    {% for f in s.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+  </div>
+</section>
+<section class="sekce">
+  <div class="wrap uzky">
+    <h2>Další služby</h2>
+    <ul class="odkazy" role="list">{% for kk in data.sluzby.poradi %}{% if kk != k %}<li><a href="{{ url(kk ~ '/') }}">{{ data.sluzby.s[kk].kratce }}</a></li>{% endif %}{% endfor %}</ul>
+    <p class="mala">Hledáte nové dveře nebo showroom? Prodej dveří najdete na <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
+  </div>
+</section>
+{% endblock %}

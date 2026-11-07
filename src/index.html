@@ -1,0 +1,51 @@
+{% extends "_base.html" %}
+{% set titulek = 'Servis interiérových dveří Praha – opravy a seřízení | ' ~ site.nazev %}
+{% set popis = site.popis %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <p class="stitek">Servis dveří Praha a okolí</p>
+      <h1>Dveře drhnou nebo nejdou zavřít? Opravíme je.</h1>
+      <p class="perex">Servis a opravy interiérových dveří: seřízení, posuvné a bezfalcové dveře, obložkové zárubně. Běžný servis zpravidla do 24 hodin, ceny od 600 Kč.</p>
+      <div class="cta">
+        <a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a>
+        <a class="tlacitko druhe" href="{{ url('cenova-kalkulace/') }}">Poslat fotku závady</a>
+      </div>
+      <ul class="body" role="list"><li>Nejdřív oprava, ne výměna</li><li>Cena odsouhlasená předem</li><li>Urgentní výjezd až do 60 minut</li></ul>
+    </div>
+    <div class="hero-foto">{{ img('technik.jpg', 'Technik servisu dveří při práci', sizes='(min-width: 60rem) 30rem, 100vw', eager=true) }}</div>
+  </div>
+</section>
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <h2>S čím vám pomůžeme</h2>
+    <ul class="karty" role="list">
+      {% for kk in data.sluzby.poradi %}{% set s = data.sluzby.s[kk] %}
+      <li><a href="{{ url(kk ~ '/') }}"><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p><span class="od">od {{ s.cena.od }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<section class="sekce tmava">
+  <div class="wrap uzky">
+    <h2>Jak to funguje</h2>
+    <ol class="kroky" role="list">
+      <li><strong>Pošlete fotku nebo zavolejte.</strong> Stačí krátký popis závady.</li>
+      <li><strong>Řekneme příčinu a cenu.</strong> Často už před výjezdem.</li>
+      <li><strong>Přijedeme a opravíme.</strong> Cenu odsouhlasíte před zahájením práce.</li>
+    </ol>
+    <p><a class="tlacitko druhe" href="{{ url('cenik-praci/') }}">Ceník</a></p>
+  </div>
+</section>
+<section class="sekce" id="kontakt">
+  <div class="wrap dva">
+    <div><h2>Poptávka s fotkou závady</h2><p class="mala">Z fotek umíme obvykle říct příčinu i orientační cenu předem.</p></div>
+    <div>{% include "_formular_foto.html" %}</div>
+  </div>
+</section>
+<section class="sekce svetla"><div class="wrap uzky">
+  <p class="mala">Servisujeme interiérové dveře a zárubně. Nejsme zámečnická pohotovost ani servis oken, vstupních nebo bezpečnostních dveří. Hledáte nové dveře? Prodej a showroom: <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
+</div></section>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "_base.html" %}
+{% set titulek = 'Ceník servisu dveří Praha – opravy od 600 Kč | ' ~ site.nazev %}
+{% set popis = 'Ceník servisu interiérových dveří v Praze: diagnostika od 600 Kč, seřízení od 1 400 Kč, posuvné dveře od 1 700 Kč, kování od 690 Kč. Ceny včetně DPH.' %}
+{% set cesta = 'cenik-praci/' %}
+{% block obsah %}
+<section class="hero hero-sluzba"><div class="wrap">
+  <p class="stitek">Ceník</p>
+  <h1>Ceník servisu dveří</h1>
+  <p class="perex">Orientační ceny včetně DPH. Přesnou cenu řekneme podle závady a odsouhlasíte ji před zahájením práce.</p>
+</div></section>
+<section class="sekce"><div class="wrap uzky">
+  <table class="cenik">
+    <thead><tr><th>Služba</th><th>Cena od</th></tr></thead>
+    <tbody>
+      <tr><td>Výjezd po Praze</td><td>700 Kč</td></tr>
+      <tr><td>Diagnostika a kontrola na místě</td><td>600 Kč</td></tr>
+      <tr><td><a href="{{ url('serizeni-dveri-a-pantu-v-praze/') }}">Seřízení falcových a bezfalcových dveří</a></td><td>1 400 Kč</td></tr>
+      <tr><td><a href="{{ url('oprava-posuvnych-dveri/') }}">Seřízení posuvných dveří, 1 křídlo</a></td><td>800–900 Kč</td></tr>
+      <tr><td><a href="{{ url('servis-a-oprava-dveri-na-stenu/') }}">Oprava posuvných dveří na stěnu</a></td><td>1 700 Kč</td></tr>
+      <tr><td><a href="{{ url('servis-a-oprava-dveri-do-pouzdra/') }}">Servis dveří do pouzdra</a></td><td>1 800 Kč</td></tr>
+      <tr><td>Výměna nebo oprava kliky, zámku, závěsu</td><td>690 Kč</td></tr>
+      <tr><td>Montáž obložkové zárubně, dveří a kliky</td><td>2 500 Kč</td></tr>
+    </tbody>
+  </table>
+  <p class="mala">Oprava obložkových zárubní se cení podle rozsahu poškození, pošlete fotku a řekneme orientační cenu předem.</p>
+  <p><a class="tlacitko" href="{{ url('cenova-kalkulace/') }}">Poslat fotku závady</a></p>
+</div></section>
+{% endblock %}
