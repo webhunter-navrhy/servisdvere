@@ -3,6 +3,14 @@
 {% set popis = site.popis %}
 {% set cesta = '' %}
 {% block obsah %}
+{% set ikony = {
+"servis-a-oprava-dveri-do-pouzdra":'<rect x="4" y="6" width="40" height="36"/><rect x="22" y="10" width="18" height="32" stroke-dasharray="3 3"/><path d="M8 24h10M14 20l-4 4 4 4"/>',
+"servis-a-oprava-dveri-na-stenu":'<path d="M4 10h40"/><rect x="12" y="12" width="18" height="30"/><path d="M34 27h8M38 23l4 4-4 4"/>',
+"oprava-posuvnych-dveri":'<path d="M4 10h40"/><circle cx="16" cy="10" r="3"/><circle cx="28" cy="10" r="3"/><rect x="10" y="14" width="24" height="28"/>',
+"servis-bezfalcovych-dveri":'<rect x="8" y="6" width="32" height="36"/><path d="M8 6l0 36M40 6v36" stroke-width="4"/><path d="M30 24h4"/>',
+"servis-oblozkovych-zarubni":'<path d="M8 42V8h32v34"/><path d="M14 42V14h20v28"/><path d="M8 8l6 6M40 8l-6 6"/>',
+"serizeni-dveri-a-pantu-v-praze":'<rect x="14" y="6" width="24" height="36"/><rect x="10" y="12" width="4" height="8"/><rect x="10" y="30" width="4" height="8"/><path d="M30 24h4"/>'
+} %}
 <section class="hero">
   <div class="wrap">
     <div class="hero-text">
@@ -23,7 +31,7 @@
     <h2>S čím vám pomůžeme</h2>
     <ul class="karty" role="list">
       {% for kk in data.sluzby.poradi[:6] %}{% set s = data.sluzby.s[kk] %}
-      <li><a href="{{ url(kk ~ '/') }}"><span class="od"><small>od</small> {{ s.cena.od }}</span><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p></a></li>
+      <li><a href="{{ url(kk ~ '/') }}"><svg class="ik" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">{{ ikony[kk]|safe }}</svg><span class="od"><small>od</small> {{ s.cena.od }}</span><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p></a></li>
       {% endfor %}
     </ul>
   </div>
@@ -45,6 +53,7 @@
     <div class="kontakty"><h2>Poptávka s fotkou závady</h2><p class="perex">Z fotek umíme obvykle říct příčinu i orientační cenu předem.</p>
       <p><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a></p>
       <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <div class="citaty"><blockquote>„Rychlá reakce, přijel ještě ten den. Dveře zase fungují, jak mají.“<cite>Zákazník</cite></blockquote><blockquote>„Vyřešil problém, který jiní odmítli. Velká spokojenost.“<cite>Zákazník</cite></blockquote><blockquote>„Dveře nešly zavřít, opraveno za 2 hodiny. Super domluva.“<cite>Zákaznice</cite></blockquote></div>
       <ul class="body" role="list"><li>Praha a okolí</li><li>Servis zpravidla do 24 hodin</li><li>Urgentní výjezd až do 60 minut</li></ul></div>
     <div>{% include "_formular_foto.html" %}</div>
   </div>
