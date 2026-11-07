@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Mobil 390/360 px, hlavička: menu se láme do dvou řádků (Kontakt padá na druhý řádek) a s logem zabírá ~115 px nahoře. Dole k tomu stojí lišta Zavolat, takže na obsah zbývá málo místa. Oprava: hamburger nebo jeden řádek, který jde posouvat do strany, a hlavička nejvýš 64 px.",
+    "Hero na PC a pruh „Dveře, které jen drhnou…“: fotka pod hero je výřez hlavy a ucha technika a dveře na ní skoro nejsou vidět. Pruh s potetovanou rukou je oříznutý stejně nahodile. Oprava: dát do hero fotku, kde je vidět práce na dveřích (Seřízení dveří / Přesné měření zárubně z galerie). Nastavit object-position na křídlo a pant, nebo hero rozdělit na text vlevo a fotku vpravo.",
+    "Sekce „S čím vám pomůžeme“: 6 stejných bílých karet s linkovými piktogramy působí šablonovitě. Hned po nich jde tmavý blok s kroky 1-2-3 a velký vystředěný citát s prázdnou bílou plochou (PC buňky 5–6). Oprava: místo piktogramů dát do karet reálné fotky z galerie (pouzdro, sklo, zárubeň). Citát spojit se třemi recenzemi u formuláře. Do červené patičky doplnit telefon, e-mail a WhatsApp."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Silný nápad z oboru: „Nejdřív oprava, ne výměna“ a poptávka s fotkou závady. Prochází celým webem a sedí na skutečné texty klienta.",
+    "Brand drží: červená a černá z loga, logo vlevo v hlavičce, skutečné fotky techniků ze zakázek klienta. Recenze a lhůty (24 h, 60 min) jsou doložené v briefu.",
+    "Konverze je jasná: v hero je telefon i poptávka, na mobilu je stálá lišta Zavolat a tlačítko WhatsApp. Formulář má výběr typu závady a nahrání fotek. Ceník po službách je přehledný. Nic nepřetéká, QA je zelené."
+  ],
+  "verdikt": "Poctivý a prodejní web s dobrým nápadem a skutečnými fotkami, ale mobilní hlavička, nahodile oříznutá fotka v hero a šablonovité karty služeb ho drží pod laťkou. Po těchto třech opravách je na 8 a dá se poslat.",
+  "_hash": "1fbe026f16922d5757532d8125c7159878961083"
+}

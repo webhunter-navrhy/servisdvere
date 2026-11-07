@@ -25,13 +25,13 @@
     </div>
   </div>
 </section>
-<section class="pas">{{ img('technik.jpg', 'Technik servisu dveří při práci v Praze', sizes='100vw', cls='pas-foto', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
+<section class="pas">{{ img('serizeni.jpg', 'Technik servisu dveří při práci v Praze', sizes='100vw', cls='pas-foto pas-dvere', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>S čím vám pomůžeme</h2>
     <ul class="karty" role="list">
       {% for kk in data.sluzby.poradi[:6] %}{% set s = data.sluzby.s[kk] %}
-      <li><a href="{{ url(kk ~ '/') }}"><svg class="ik" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">{{ ikony[kk]|safe }}</svg><span class="od">{% if "–" not in s.cena.od %}<small>od</small> {% endif %}{{ s.cena.od }}</span><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p></a></li>
+      <li><a href="{{ url(kk ~ '/') }}">{{ img(s.foto, s.foto_alt, sizes='(min-width: 60rem) 20rem, 100vw', cls='kfoto') }}<svg class="ik" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">{{ ikony[kk]|safe }}</svg><span class="od">{% if "–" not in s.cena.od %}<small>od</small> {% endif %}{{ s.cena.od }}</span><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p></a></li>
       {% endfor %}
     </ul>
   </div>
