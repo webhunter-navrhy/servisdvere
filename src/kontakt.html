@@ -1,19 +1,19 @@
 {% extends "_base.html" %}
-{% set titulek = 'Kontakt – servis dveří Praha | ' ~ site.nazev %}
-{% set popis = 'Kontakt na servis interiérových dveří v Praze: telefon, e-mail a formulář s fotkou závady.' %}
+{% set titulek = 'Kontakt – opravy dveří Praha | ' ~ site.nazev %}
+{% set popis = 'Kontakt na opravy interiérových dveří v Praze: telefon, e-mail a formulář s fotkou závady.' %}
 {% set cesta = 'kontakt/' %}
 {% block obsah %}
 <section class="hero hero-sluzba"><div class="wrap">
   <p class="stitek">Kontakt</p>
   <h1>Kontakt</h1>
-  <p class="perex">Servis dveří po celé Praze a blízkém okolí. Zavolejte, napište, nebo pošlete fotku závady.</p>
+  <p class="perex">Opravy dveří po celé Praze a blízkém okolí. Zavolejte, napište, nebo pošlete fotku závady.</p>
 </div></section>
 <section class="sekce"><div class="wrap dva">
   <div class="kontakty">
     <p><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a></p>
     <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
     <p class="mala">IČO {{ site.ico }}</p>
-    <p class="mala">Nehledáte servis, ale nové dveře? Prodej a showroom najdete na <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
+    <p class="mala">Nehledáte opravu, ale nové dveře? Prodej a showroom najdete na <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
   </div>
   <div>{% include "_formular_foto.html" %}</div>
 </div></section>

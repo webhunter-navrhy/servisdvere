@@ -11,13 +11,13 @@
  "s": {
   "servis-a-oprava-dveri-do-pouzdra": {
    "kratce": "Dveře do pouzdra",
-   "titulek": "Servis a oprava posuvných dveří do pouzdra Praha | Servis dveří",
-   "popis": "Oprava dveří zajíždějících do zdi v Praze: zadrhávání, hluk, pojezdové vozíky. Servis od 1 800 Kč, bez zbytečného bourání, zpravidla do 24 hodin.",
-   "stitek": "Servis posuvných dveří Praha",
-   "h1": "Servis posuvných dveří do pouzdra v Praze",
+   "titulek": "Oprava posuvných dveří do pouzdra Praha | Opravy dveří",
+   "popis": "Oprava dveří zajíždějících do zdi v Praze: zadrhávání, hluk, pojezdové vozíky. Oprava od 1 800 Kč, bez zbytečného bourání, zpravidla do 24 hodin.",
+   "stitek": "Opravy posuvných dveří Praha",
+   "h1": "Opravy posuvných dveří do pouzdra v Praze",
    "perex": "Opravy systémů zajíždějících do zdi bez zbytečných demontáží. Cílem není dveře rozebírat, ale obnovit jejich plynulý a tichý chod.",
    "cena": {
-    "nadpis": "Servis dveří do pouzdra",
+    "nadpis": "Opravy dveří do pouzdra",
     "od": "1 800 Kč",
     "pozn": "Orientační cena včetně DPH, výjezd po Praze od 700 Kč. Cenu odsouhlasíte před opravou."
    },
@@ -48,7 +48,7 @@
    "proc": [
     {
      "t": "Diagnostika systému",
-     "p": "Posoudíme stav křídla, pojezdu, kolejnice a dostupných servisních částí."
+     "p": "Posoudíme stav křídla, pojezdu, kolejnice a dostupných dílů."
     },
     {
      "t": "Oprava bez zbytečného bourání",
@@ -62,15 +62,15 @@
    "faq": [
     {
      "q": "Musí se kvůli opravě bourat zeď?",
-     "a": "Pokud to konstrukce pouzdra dovoluje, volíme servisní postup bez zásahu do stěny."
+     "a": "Pokud to konstrukce pouzdra dovoluje, volíme postup bez zásahu do stěny."
     },
     {
      "q": "Kolik oprava stojí?",
-     "a": "Servis dveří do pouzdra začíná od 1 800 Kč včetně DPH. Přesnou cenu řekneme podle závady a odsouhlasíte ji před opravou."
+     "a": "Opravy dveří do pouzdra začínají od 1 800 Kč včetně DPH. Přesnou cenu řekneme podle závady a odsouhlasíte ji před opravou."
     },
     {
      "q": "Jak rychle můžete přijet?",
-     "a": "Běžný servis zpravidla do 24 hodin podle dostupnosti technika. Při zablokovaných dveřích nabízíme urgentní výjezd až do 60 minut."
+     "a": "Běžná oprava zpravidla do 24 hodin podle dostupnosti technika. Při zablokovaných dveřích nabízíme urgentní výjezd až do 60 minut."
     },
     {
      "q": "Co poslat předem?",
@@ -83,11 +83,11 @@
   },
   "servis-a-oprava-dveri-na-stenu": {
    "kratce": "Posuvné dveře na stěnu",
-   "titulek": "Oprava a seřízení posuvných dveří na stěnu Praha | Servis dveří",
-   "popis": "Servis kolejnic, vozíků, dorazů a posuvných mechanismů dveří na stěnu v Praze. Oprava od 1 700 Kč, běžný servis zpravidla do 24 hodin.",
-   "stitek": "Servis posuvných dveří Praha",
+   "titulek": "Oprava a seřízení posuvných dveří na stěnu Praha | Opravy dveří",
+   "popis": "Opravy kolejnic, vozíků, dorazů a posuvných mechanismů dveří na stěnu v Praze. Oprava od 1 700 Kč, běžná oprava zpravidla do 24 hodin.",
+   "stitek": "Opravy posuvných dveří Praha",
    "h1": "Oprava a seřízení posuvných dveří na stěnu v Praze",
-   "perex": "Servis kolejnic, vozíků, dorazů a posuvných mechanismů. Zjišťujeme příčinu drhnutí, hluku, špatného dovírání i problémů s pojezdem.",
+   "perex": "Opravy kolejnic, vozíků, dorazů a posuvných mechanismů. Zjišťujeme příčinu drhnutí, hluku, špatného dovírání i problémů s pojezdem.",
    "cena": {
     "nadpis": "Oprava posuvných dveří na stěnu",
     "od": "1 700 Kč",
@@ -116,7 +116,7 @@
      "p": "Vrzání, skřípání nebo rázy způsobené závadou mechanismu."
     }
    ],
-   "proc_nadpis": "Co při servisu děláme",
+   "proc_nadpis": "Co při opravě děláme",
    "proc": [
     {
      "t": "Seřízení výšky a roviny",
@@ -142,7 +142,7 @@
     },
     {
      "q": "Opravujete i skleněné posuvné dveře?",
-     "a": "Ano, servisujeme posuvné dveře na stěnu, do pouzdra i skleněné posuvné dveře."
+     "a": "Ano, opravujeme posuvné dveře na stěnu, do pouzdra i skleněné posuvné dveře."
     }
    ],
    "typ_poptavky": "Posuvné dveře na stěnu",
@@ -151,7 +151,7 @@
   },
   "oprava-posuvnych-dveri": {
    "kratce": "Posuvné dveře – pojezdy",
-   "titulek": "Oprava posuvných dveří – servis a seřízení pojezdů Praha | Servis dveří",
+   "titulek": "Oprava posuvných dveří – seřízení pojezdů Praha | Opravy dveří",
    "popis": "Posuvné dveře zadrhávají nebo hlučně jezdí? Seřízení pojezdu, výměna koleček, čištění kolejnice v Praze. Seřízení 1 křídla 800–900 Kč.",
    "stitek": "Posuvné dveře",
    "h1": "Oprava posuvných dveří: seřízení pojezdů a kolejnic",
@@ -159,7 +159,7 @@
    "cena": {
     "nadpis": "Seřízení 1 křídla",
     "od": "800–900 Kč",
-    "pozn": "Kompletní servis nebo oprava od 1 700–1 800 Kč, kliky a zámek od 690 Kč. Orientační ceny včetně DPH."
+    "pozn": "Kompletní oprava od 1 700–1 800 Kč, kliky a zámek od 690 Kč. Orientační ceny včetně DPH."
    },
    "zavady_nadpis": "Nejčastější opravy posuvných dveří",
    "zavady": [
@@ -202,11 +202,11 @@
    "faq": [
     {
      "q": "Kolik stojí oprava posuvných dveří?",
-     "a": "Seřízení jednoho křídla 800–900 Kč, kompletní servis nebo oprava od 1 700–1 800 Kč, výměna kliky nebo zámku od 690 Kč. Ceny jsou orientační včetně DPH."
+     "a": "Seřízení jednoho křídla 800–900 Kč, kompletní oprava od 1 700–1 800 Kč, výměna kliky nebo zámku od 690 Kč. Ceny jsou orientační včetně DPH."
     },
     {
      "q": "Opravujete dveře na stěnu i do pouzdra?",
-     "a": "Ano. Servisujeme posuvné dveře na stěnu, do pouzdra i skleněné posuvné dveře. Každý systém má svá specifika, řešení volíme podle konstrukce, typu kování a stáří dveří."
+     "a": "Ano. Opravujeme posuvné dveře na stěnu, do pouzdra i skleněné posuvné dveře. Každý systém má svá specifika, řešení volíme podle konstrukce, typu kování a stáří dveří."
     }
    ],
    "typ_poptavky": "Posuvné dveře na stěnu",
@@ -215,17 +215,17 @@
   },
   "servis-bezfalcovych-dveri": {
    "kratce": "Bezfalcové dveře",
-   "titulek": "Servis bezfalcových dveří Praha – seřízení a opravy | Servis dveří",
-   "popis": "Odborný servis bezfalcových dveří v Praze: lícování se zárubní, rovnoměrné spáry, dovírání. Seřízení od 1 400 Kč, běžný servis do 24 hodin.",
-   "stitek": "Odborný servis dveří Praha",
-   "h1": "Servis bezfalcových dveří v Praze",
+   "titulek": "Opravy bezfalcových dveří Praha – seřízení a opravy | Opravy dveří",
+   "popis": "Odborné opravy bezfalcových dveří v Praze: lícování se zárubní, rovnoměrné spáry, dovírání. Seřízení od 1 400 Kč, běžná oprava do 24 hodin.",
+   "stitek": "Odborné opravy dveří Praha",
+   "h1": "Opravy bezfalcových dveří v Praze",
    "perex": "Precizní seřízení a opravy dveří, které nesnesou chyby. U bezfalcových dveří často nestačí dotáhnout panty: i drobná odchylka je vidět na spáře i na chodu.",
    "cena": {
     "nadpis": "Seřízení bezfalcových dveří",
     "od": "1 400 Kč",
     "pozn": "Orientační cena včetně DPH, platí pro falcové i bezfalcové dveře. Cenu odsouhlasíte před opravou."
    },
-   "zavady_nadpis": "Co obnáší servis bezfalcových dveří",
+   "zavady_nadpis": "Co obnáší oprava bezfalcových dveří",
    "zavady": [
     {
      "t": "Dveře nelícují se zárubní",
@@ -270,7 +270,7 @@
     },
     {
      "q": "Jak dlouho trvá, než přijedete?",
-     "a": "Běžný servis zpravidla do 24 hodin podle dostupnosti technika."
+     "a": "Běžná oprava zpravidla do 24 hodin podle dostupnosti technika."
     },
     {
      "q": "Dveře se rozhodily po výměně podlahy. Půjde to opravit?",
@@ -283,7 +283,7 @@
   },
   "servis-oblozkovych-zarubni": {
    "kratce": "Obložkové zárubně",
-   "titulek": "Opravy obložkových zárubní Praha | Servis dveří",
+   "titulek": "Opravy obložkových zárubní Praha | Opravy dveří",
    "popis": "Oprava obložkových zárubní v Praze na místě: uvolněné zárubně, praskliny v rozích, vytržené panty. Většinou levnější a rychlejší než výměna.",
    "stitek": "Obložkové zárubně Praha",
    "h1": "Opravy obložkových zárubní v Praze",
@@ -351,7 +351,7 @@
   },
   "serizeni-dveri-a-pantu-v-praze": {
    "kratce": "Seřízení dveří a pantů",
-   "titulek": "Seřízení dveří a pantů Praha – dveře drhnou, nelícují | Servis dveří",
+   "titulek": "Seřízení dveří a pantů Praha – dveře drhnou, nelícují | Opravy dveří",
    "popis": "Dveře drhnou, nelícují nebo se samy otevírají? Odborné seřízení dveří a pantů v Praze na základě diagnostiky. Seřízení od 1 400 Kč.",
    "stitek": "Seřízení dveří Praha",
    "h1": "Seřízení dveří a pantů v Praze: když dveře drhnou nebo se samy otevírají",
@@ -419,17 +419,17 @@
   },
   "servis-interierovych-dveri": {
    "kratce": "Interiérové dveře – všechny typy",
-   "titulek": "Servis interiérových dveří Praha – oprava ještě dnes | Servis dveří",
-   "popis": "Servis a opravy interiérových dveří v Praze: klasické, bezfalcové, posuvné i skleněné. Dveře drhnou nebo nejdou zavřít? Výjezd do 60 minut, ceny od 600 Kč.",
-   "stitek": "Servis interiérových dveří",
-   "h1": "Servis interiérových dveří v Praze",
-   "perex": "Dveře drhnou, nejdou zavřít nebo nefunguje posuvný mechanismus? Provádíme odborné opravy, seřízení a servis dveří a zárubní přímo u zákazníků v Praze a okolí.",
+   "titulek": "Opravy interiérových dveří Praha – oprava ještě dnes | Opravy dveří",
+   "popis": "Opravy interiérových dveří v Praze: klasické, bezfalcové, posuvné i skleněné. Dveře drhnou nebo nejdou zavřít? Výjezd do 60 minut, ceny od 600 Kč.",
+   "stitek": "Opravy interiérových dveří",
+   "h1": "Opravy interiérových dveří v Praze",
+   "perex": "Dveře drhnou, nejdou zavřít nebo nefunguje posuvný mechanismus? Provádíme odborné opravy a seřízení dveří a zárubní přímo u zákazníků v Praze a okolí.",
    "cena": {
     "nadpis": "Diagnostika a kontrola na místě",
     "od": "600 Kč",
     "pozn": "Seřízení od 1 400 Kč, posuvné dveře od 1 700 Kč, kování od 690 Kč. Orientační ceny včetně DPH."
    },
-   "zavady_nadpis": "Jaké dveře servisujeme",
+   "zavady_nadpis": "Jaké dveře opravujeme",
    "zavady": [
     {
      "t": "Klasické a bezfalcové dveře",
@@ -470,11 +470,11 @@
    "faq": [
     {
      "q": "Opravujete i vstupní dveře nebo otevíráte zamčené byty?",
-     "a": "Ne. Jsme specializovaný servis interiérových dveří a zárubní, nikoliv zámečnická pohotovost ani servis oken, vstupních nebo bezpečnostních dveří."
+     "a": "Ne. Specializujeme se na opravy interiérových dveří a zárubní, nikoliv zámečnická pohotovost ani opravy oken, vstupních nebo bezpečnostních dveří."
     },
     {
      "q": "Kdy přijedete?",
-     "a": "Běžný servis zpravidla do 24 hodin. Urgentní výjezd (zablokované interiérové dveře) podle aktuální dostupnosti technika a dopravy až do 60 minut."
+     "a": "Běžná oprava zpravidla do 24 hodin. Urgentní výjezd (zablokované interiérové dveře) podle aktuální dostupnosti technika a dopravy až do 60 minut."
     },
     {
      "q": "Kolik oprava stojí?",
