@@ -3,7 +3,7 @@
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Title má 73 znaků (>70)"
+    "Dotykové cíle <40 px na mobilu: 1× (např. a \"servisdvere@seznam.c\" 176×17)"
   ],
   "metriky": {
     "sirky": {
@@ -32,20 +32,20 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.41,
+    "preneseno_PC_MB": 0.5,
     "nejvetsi_obrazek_PC": {
       "kB": 196,
       "url": "https://webhunter-navrhy.github.io/servisdvere/logo.png"
     },
-    "snimku_PC": 4,
+    "snimku_PC": 5,
     "preneseno_mobil_MB": 0.46,
     "nejvetsi_obrazek_mobil": {
       "kB": 196,
       "url": "https://webhunter-navrhy.github.io/servisdvere/logo.png"
     },
-    "snimku_mobil": 5,
+    "snimku_mobil": 6,
     "seo": {
-      "title": "Servis interiérových dveří Praha – opravy a seřízení | Servis dveří Praha",
+      "title": "Servis interiérových dveří Praha – opravy a seřízení",
       "description": "Servis a opravy interiérových dveří v Praze: seřízení, posuvné dveře, bezfalcové dveře, obložkové zá",
       "lang": "cs",
       "h1": 1,
@@ -58,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 0,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Archivo",
     "font_text": "Archivo",
     "podstranky": {

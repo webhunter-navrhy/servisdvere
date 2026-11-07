@@ -1,17 +1,16 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Služby (PC 1440): sedm stejných bílých textových karet ve třech sloupcích. Poslední karta „Interiérové dveře – všechny typy“ zůstává sama v řádku a opakuje text z hero, takže sekce působí jako zeď textu. Oprava: tuhle kartu vyřadit, šest karet dá dva plné řádky. Karty odlišit: cenu „od …“ dát velkou nahoru a ke každému typu dveří (pouzdro, stěna, pojezd, bezfalc, zárubeň, panty) přidat jednoduchý liniový nákres v červené barvě loga nebo výřez fotky.",
-    "Jak to funguje a Poptávka (PC): tři kroky v tmavém pásu jsou natlačené v úzkém levém sloupci, pravá polovina je prázdná a tlačítko „Ceník“ visí pod nimi. U poptávky je vlevo jen nadpis s jednou větou a pod ním asi 500 px prázdné plochy. Oprava: kroky rozložit do tří sloupců přes celou šířku. Do levého sloupce poptávky dát telefon, e-mail servisdvere@seznam.cz a 2–3 citace zákazníků z původního webu, které brief obsahuje, např. „Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“.",
-    "Celá stránka (koncept a atmosféra): jediná fotka (technik v hero), jedno písmo Archivo bez kontrastu řezů a béžová plocha s bílými kartami. Výsledek je generická šablona řemeslníka bez nápadu a s titulkou podobnou ostatním webům. Oprava: postavit stránku na hlavní myšlence klienta „Nejdřív oprava, ne výměna“ nebo „Pošlete fotku, řekneme příčinu“. Technika dát jako velkou fotku přes celou šířku, z bloku „Nejsme zámečnická pohotovost“ udělat výraznou sekci v červené barvě klienta a nadpisy zvýraznit řezem nebo druhou rodinou písma."
+    "Fotka technika přes celou šířku pod hero (PC 1440, buňky 1–2): je oříznutá na temeno holé hlavy a strop. Ze dveří ani z práce nic vidět není a nadpis „Dveře, které jen drhnou, většinou nejsou na výměnu.“ sedí na pruhu s týlem hlavy. Na mobilu je z fotky vidět jen proužek nad zlomem. Oprava: posunout object-position dolů na ruce s nářadím a křídlo dveří (např. center 70 %), na PC dát pásu výšku aspoň 70vh a nadpis položit na tmavý přechod ve spodní třetině.",
+    "Služby a Poptávka (PC): šest karet už tvoří dva plné řádky a cena „od …“ je velká, ale karty jsou pořád jen text. U poptávky zůstává levý sloupec pod odškrtávacími body prázdný zhruba ve výšce poloviny formuláře (buňka 5). Citace je jen jedna, samostatně mezi kroky a poptávkou, a pod ní je interní poznámka „Zákaznice, z původního webu servisdvere.cz“, která na web klienta nepatří. Oprava: ke každé kartě přidat liniový nákres typu dveří v červené z loga. Do levého sloupce poptávky dát 2–3 citace z briefu („Dveře nešly zavřít, opraveno za 2 hodiny…“, „Vyřešil problém, který jiní odmítli…“) s podpisem jen „zákaznice/zákazník“.",
+    "Typografie celé stránky: všude je jen Archivo a h2 („S čím vám pomůžeme“, „Poptávka s fotkou závady“, „Nejdřív oprava, ne výměna“) mají kolem 28 px. Hlavní myšlenka proto nezazní silněji než podnadpisy karet. Na mobilu má odkaz servisdvere@seznam.cz dotykovou plochu jen 17 px (QA). Oprava: nadpisy sekcí zvětšit na 44–56 px (PC) v řezu 800 nebo v kondenzované variantě Archiva, „Nejdřív oprava, ne výměna“ udělat největším nadpisem pod hero a e-mailovému odkazu dát padding na 44 px."
   ],
   "zavazne": [],
   "silne": [
-    "Hero hned řekne, co firma dělá a kde: „Dveře drhnou nebo nejdou zavřít? Opravíme je.“ Má telefon jako hlavní akci, fotku a tři doložené výhody (nejdřív oprava, cena předem, výjezd do 60 minut).",
-    "Brand sedí: logo klienta je vlevo v hlavičce, akcent je červená z loga a fotka technika je vlastní fotka klienta.",
-    "Poptávka s nahráním fotky závady přesně odpovídá tomu, jak firma pracuje. Na mobilu je stálá lišta „Zavolat 728 252 929“.",
-    "Technicky čisté: QA bez chyb, nic nepřetéká na žádné ze šesti šířek, stránka má 0,4 MB a ke každé službě je podstránka s obsahem z původního webu."
+    "Výtky z minulého kola jsou většinou opravené: kroky jsou ve třech sloupcích přes celou šířku, sedmá karta je pryč, ceny jsou nahoře v červené z loga a blok „Nejsme zámečnická pohotovost“ je výrazná červená sekce.",
+    "Brand drží: logo je vlevo v hlavičce, paleta je jen červená #c6050b, černá a světlá. Texty, ceny a citace jsou převzaté z původního webu klienta.",
+    "Konverze je jasná: telefon je v hero i v poptávce, na mobilu je stále viditelná lišta „Zavolat 728 252 929“ a formulář má výběr typu dveří i fotky závady. Nic nepřetéká na žádné ze 6 šířek."
   ],
-  "verdikt": "Web je funkční, prodejní a drží brand klienta, ale vizuálně je to generická šablona: jediná fotka, zeď stejných karet a poloprázdné sekce, takže by u Rafaela neprošel. Opravit podle tří slabin. Před odesláním ještě ověřit ceny „od …“ proti podstránkám servisdvere.cz, protože brief je mezi doloženými fakty nemá.",
-  "_hash": "0283abf86ded1deba221daf10092cd952c50eeda"
+  "verdikt": "Oproti minulému kolu je to znatelně lepší, čistší a z brandu klienta. Odeslání ale pořád brzdí špatně oříznutá jediná fotka, holé textové karty a málo výrazná typografie. Před odesláním ověřit zdroj IČO 74119893 v patičce, v briefu není.",
+  "_hash": "752d78bc4f9cfb787801278bb947fcaec7c02adf"
 }
