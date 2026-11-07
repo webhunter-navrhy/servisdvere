@@ -13,7 +13,7 @@
       <a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a>
       <a class="tlacitko druhe" href="{{ url('cenova-kalkulace/') }}">Poslat fotku závady</a>
     </div>
-    <p class="cena-od"><span>{{ s.cena.nadpis }} od</span> <strong>{{ s.cena.od }}</strong></p>
+    <p class="cena-od"><span>{{ s.cena.nadpis }}{% if "–" not in s.cena.od %} od{% endif %}</span> <strong>{{ s.cena.od }}</strong></p>
   </div>
 </section>
 <section class="sekce">
@@ -24,7 +24,7 @@
     </div>
     <aside class="kar">
       {{ img('technik.jpg', 'Technik servisu dveří při práci', sizes='(min-width: 60rem) 28rem, 100vw') }}
-      <p class="cena-pozn"><strong>{{ s.cena.nadpis }}: od {{ s.cena.od }}</strong><br>{{ s.cena.pozn }}</p>
+      <p class="cena-pozn"><strong>{{ s.cena.nadpis }}: {% if "–" not in s.cena.od %}od {% endif %}{{ s.cena.od }}</strong><br>{{ s.cena.pozn }}</p>
     </aside>
   </div>
 </section>

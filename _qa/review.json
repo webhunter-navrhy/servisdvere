@@ -1,16 +1,17 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Fotka technika přes celou šířku pod hero (PC 1440, buňky 1–2): je oříznutá na temeno holé hlavy a strop. Ze dveří ani z práce nic vidět není a nadpis „Dveře, které jen drhnou, většinou nejsou na výměnu.“ sedí na pruhu s týlem hlavy. Na mobilu je z fotky vidět jen proužek nad zlomem. Oprava: posunout object-position dolů na ruce s nářadím a křídlo dveří (např. center 70 %), na PC dát pásu výšku aspoň 70vh a nadpis položit na tmavý přechod ve spodní třetině.",
-    "Služby a Poptávka (PC): šest karet už tvoří dva plné řádky a cena „od …“ je velká, ale karty jsou pořád jen text. U poptávky zůstává levý sloupec pod odškrtávacími body prázdný zhruba ve výšce poloviny formuláře (buňka 5). Citace je jen jedna, samostatně mezi kroky a poptávkou, a pod ní je interní poznámka „Zákaznice, z původního webu servisdvere.cz“, která na web klienta nepatří. Oprava: ke každé kartě přidat liniový nákres typu dveří v červené z loga. Do levého sloupce poptávky dát 2–3 citace z briefu („Dveře nešly zavřít, opraveno za 2 hodiny…“, „Vyřešil problém, který jiní odmítli…“) s podpisem jen „zákaznice/zákazník“.",
-    "Typografie celé stránky: všude je jen Archivo a h2 („S čím vám pomůžeme“, „Poptávka s fotkou závady“, „Nejdřív oprava, ne výměna“) mají kolem 28 px. Hlavní myšlenka proto nezazní silněji než podnadpisy karet. Na mobilu má odkaz servisdvere@seznam.cz dotykovou plochu jen 17 px (QA). Oprava: nadpisy sekcí zvětšit na 44–56 px (PC) v řezu 800 nebo v kondenzované variantě Archiva, „Nejdřív oprava, ne výměna“ udělat největším nadpisem pod hero a e-mailovému odkazu dát padding na 44 px."
+    "Úvod na PC (1440 px, buňka 1): pravá polovina úvodu je prázdná krémová plocha. Nadpis „Dveře drhnou nebo nejdou zavřít? Opravíme je.“ má jen asi 50 px. Nadpis „Nejdřív oprava, ne výměna“ je stejně velký jako „Poptávka s fotkou závady“, takže hlavní myšlenka pořád nevyčnívá. Oprava: H1 zvětšit na 72–80 px, aby vedl přes zhruba 8 sloupců. „Nejdřív oprava, ne výměna“ dát o stupeň výš (asi 64 px) než ostatní nadpisy sekcí.",
+    "Pás s fotkou na mobilu (390 px, buňky 1–2): na mobilu je pořád výřez na temeno hlavy a brýle. Ruce a dveře, které jsou na PC už vidět, tu chybí. Oprava: v media query pro mobil nastavit object-position zhruba na center 75 % a výšku aspoň 55svh, aby byla vidět ruka na hraně křídla. Nadpis nechat na tmavém přechodu dole.",
+    "Ceník a poptávka (PC, buňky 2–5): karta „Posuvné dveře – pojezdy“ má nesmyslné „od 800–900 Kč“ (od + rozpětí). Ceny nejsou v brief.json, proto je ověřte proti stránce Ceník na servisdvere.cz a rozpětí pište bez „od“. V poptávce končí levý sloupec s citacemi asi o 250 px dřív než formulář. Pod odškrtávací body doplňte krátký seznam „Co vyfotit: panty, pojezd, zámek, celé křídlo“, je to fakt z briefu."
   ],
   "zavazne": [],
   "silne": [
-    "Výtky z minulého kola jsou většinou opravené: kroky jsou ve třech sloupcích přes celou šířku, sedmá karta je pryč, ceny jsou nahoře v červené z loga a blok „Nejsme zámečnická pohotovost“ je výrazná červená sekce.",
-    "Brand drží: logo je vlevo v hlavičce, paleta je jen červená #c6050b, černá a světlá. Texty, ceny a citace jsou převzaté z původního webu klienta.",
-    "Konverze je jasná: telefon je v hero i v poptávce, na mobilu je stále viditelná lišta „Zavolat 728 252 929“ a formulář má výběr typu dveří i fotky závady. Nic nepřetéká na žádné ze 6 šířek."
+    "Minulé výtky jsou z velké části opravené. Na PC je ve fotce teď ruka na hraně dveří a technik místo stropu. Karty služeb mají červené liniové nákresy typů dveří. V levém sloupci poptávky jsou 3 citace z briefu podepsané jen „Zákazník/Zákaznice“. Nadpisy sekcí mají na PC zhruba 50 px. QA nenašlo žádný malý dotykový cíl.",
+    "Brand sedí: logo vlevo v hlavičce a červená #c6050b z loga je důsledně v CTA, cenách, ikonách i patičce. Paleta je jen černá, krémová a červená, bez cizích barev.",
+    "Konverze je silná: telefon v hlavním CTA, druhé CTA „Poslat fotku závady“, na mobilu přilepený pruh „Zavolat 728 252 929“ a formulář s výběrem typu dveří a nahráním fotek. Odpovídá to postupu z původního webu.",
+    "Texty a citace jsou převzaté z původního webu (oprava místo výměny, do 24 hodin, urgentně do 60 minut, ne zámečnická pohotovost). Přetečení je 0 na všech šesti šířkách."
   ],
-  "verdikt": "Oproti minulému kolu je to znatelně lepší, čistší a z brandu klienta. Odeslání ale pořád brzdí špatně oříznutá jediná fotka, holé textové karty a málo výrazná typografie. Před odesláním ověřit zdroj IČO 74119893 v patičce, v briefu není.",
-  "_hash": "752d78bc4f9cfb787801278bb947fcaec7c02adf"
+  "verdikt": "Opravné kolo splnilo hlavní výtky (fotka na PC, nákresy u karet, citace v poptávce, velikost nadpisů, dotykový cíl) a závažná vada tu není, takže web je na hraně odeslání. Před odesláním ještě opravit výřez fotky na mobilu a „od 800–900 Kč“ a ceny ověřit, protože nejsou v briefu.",
+  "_hash": "2dde1286b39c06b7732724aa5e225eeeca82d798"
 }
