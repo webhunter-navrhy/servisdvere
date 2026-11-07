@@ -30,18 +30,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.74,
+    "preneseno_PC_MB": 0.93,
     "nejvetsi_obrazek_PC": {
-      "kB": 196,
-      "url": "https://webhunter-navrhy.github.io/servisdvere/logo.png"
+      "kB": 220,
+      "url": "https://webhunter-navrhy.github.io/servisdvere/img/serizeni-1536.webp"
     },
     "snimku_PC": 7,
-    "preneseno_mobil_MB": 0.7,
+    "preneseno_mobil_MB": 1.32,
     "nejvetsi_obrazek_mobil": {
       "kB": 196,
       "url": "https://webhunter-navrhy.github.io/servisdvere/logo.png"
     },
-    "snimku_mobil": 9,
+    "snimku_mobil": 10,
     "seo": {
       "title": "Servis interiérových dveří Praha – opravy a seřízení",
       "description": "Servis a opravy interiérových dveří v Praze: seřízení, posuvné dveře, bezfalcové dveře, obložkové zá",
@@ -61,7 +61,7 @@
     "font_text": "Archivo",
     "podstranky": {
       "stranek": 12,
-      "obrazku": 31
+      "obrazku": 28
     }
   }
 }

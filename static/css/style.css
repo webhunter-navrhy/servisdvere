@@ -179,3 +179,5 @@ h2{font-size:var(--step-4);font-weight:800;letter-spacing:-.02em}
 @media (max-width:47.99rem){.hlavicka .wrap{flex-wrap:nowrap;flex-direction:column;align-items:stretch;gap:0;min-height:0}.hlavicka .logo{min-height:44px}.hlavicka .logo img{height:32px}.hlavicka nav{flex-wrap:nowrap;overflow-x:auto;gap:.1rem .75rem;white-space:nowrap;scrollbar-width:none}.hlavicka nav::-webkit-scrollbar{display:none}}
 .pas-foto.pas-dvere{object-position:center 35%}
 .karty li .kfoto{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:.4rem;margin-bottom:.6rem;display:block}
+@media (max-width:47.99rem){.hlavicka .wrap{flex-direction:row;align-items:center;gap:.6rem;min-height:56px}.hlavicka .logo{flex:0 0 auto}.hlavicka .logo img{height:30px}.hlavicka nav{flex:1 1 auto;min-width:0;justify-content:flex-start}}
+.pas-foto.pas-dvere{object-position:center 55%}

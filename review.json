@@ -1,16 +1,16 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Mobil 390/360 px, hlavička: menu se láme do dvou řádků (Kontakt padá na druhý řádek) a s logem zabírá ~115 px nahoře. Dole k tomu stojí lišta Zavolat, takže na obsah zbývá málo místa. Oprava: hamburger nebo jeden řádek, který jde posouvat do strany, a hlavička nejvýš 64 px.",
-    "Hero na PC a pruh „Dveře, které jen drhnou…“: fotka pod hero je výřez hlavy a ucha technika a dveře na ní skoro nejsou vidět. Pruh s potetovanou rukou je oříznutý stejně nahodile. Oprava: dát do hero fotku, kde je vidět práce na dveřích (Seřízení dveří / Přesné měření zárubně z galerie). Nastavit object-position na křídlo a pant, nebo hero rozdělit na text vlevo a fotku vpravo.",
-    "Sekce „S čím vám pomůžeme“: 6 stejných bílých karet s linkovými piktogramy působí šablonovitě. Hned po nich jde tmavý blok s kroky 1-2-3 a velký vystředěný citát s prázdnou bílou plochou (PC buňky 5–6). Oprava: místo piktogramů dát do karet reálné fotky z galerie (pouzdro, sklo, zárubeň). Citát spojit se třemi recenzemi u formuláře. Do červené patičky doplnit telefon, e-mail a WhatsApp."
+    "Mobilní hlavička (390/360 px) je opravená jen napůl. Kontakt už se nezalamuje, ale hlavička má pořád dva řádky: logo nahoře a menu pod ním, dohromady asi 85–90 px. K tomu je dole lišta Zavolat. Oprava: logo vlevo a hamburger vpravo v jednom řádku, nebo logo a vodorovně posuvné menu ve stejném řádku. Hlavička nejvýš 64 px.",
+    "Fotky v úvodu na PC jsou pořád oříznuté nahodile. Pás fotky pod hero ukazuje podlahu s taškami a hadicí. Pruh „Dveře, které jen drhnou…“ (PC buňka 2) je zatmavený výřez krabic a hlavy technika, dveře na něm skoro nejsou. Na mobilu je ve stejném pruhu pod nadpisem vidět vodoznak „Dveře Šťastný“, který je i na dvou fotkách v galerii. Oprava: do pruhu dát fotku Seřízení dveří nebo Montáž zárubně s object-position na křídlo a pant. Fotky s cizím vodoznakem oříznout nebo vyměnit, pokud se nepotvrdí, že Dveře Šťastný je tatáž firma.",
+    "Velký vystředěný citát „Myslela jsem, že budu muset kupovat nové dveře…“ pořád stojí sám na prázdné bílé ploše (PC buňka 6, mobil 8). Oprava: přesunout ho jako čtvrtou recenzi ke třem citátům u formuláře a samostatnou sekci zrušit. Červená patička na PC (buňka 7) působí jako prázdný pruh: doplnit do ní viditelně telefon 728 252 929, servisdvere@seznam.cz a WhatsApp."
   ],
   "zavazne": [],
   "silne": [
-    "Silný nápad z oboru: „Nejdřív oprava, ne výměna“ a poptávka s fotkou závady. Prochází celým webem a sedí na skutečné texty klienta.",
-    "Brand drží: červená a černá z loga, logo vlevo v hlavičce, skutečné fotky techniků ze zakázek klienta. Recenze a lhůty (24 h, 60 min) jsou doložené v briefu.",
-    "Konverze je jasná: v hero je telefon i poptávka, na mobilu je stálá lišta Zavolat a tlačítko WhatsApp. Formulář má výběr typu závady a nahrání fotek. Ceník po službách je přehledný. Nic nepřetéká, QA je zelené."
+    "Karty služeb teď mají reálné fotky z firmy (pouzdro, sklo, zárubeň, seřízení) a ceny od z ceníku klienta, takže už nepůsobí jako šablona s piktogramy.",
+    "Jasná myšlenka z oboru „Nejdřív oprava, ne výměna“ prochází hero, kroky i texty služeb. Logo je vlevo v hlavičce a barvy jsou klientova červená a černá.",
+    "Konverze je silná: Zavolat v hero, poptávka s fotkou závady, WhatsApp a lišta Zavolat na mobilu. QA je bez chyb a nic nepřetéká."
   ],
-  "verdikt": "Poctivý a prodejní web s dobrým nápadem a skutečnými fotkami, ale mobilní hlavička, nahodile oříznutá fotka v hero a šablonovité karty služeb ho drží pod laťkou. Po těchto třech opravách je na 8 a dá se poslat.",
-  "_hash": "1fbe026f16922d5757532d8125c7159878961083"
+  "verdikt": "Karty služeb jsou opravené dobře. Mobilní hlavička, fotky v úvodu a osamocený citát jsou ale opravené jen napůl nebo vůbec, a tak web zůstává na 7. Před odesláním dodělat tři body výše a ověřit vodoznak Dveře Šťastný.",
+  "_hash": "743443793f089fd00f03e3ca64a474ef41dc0556"
 }

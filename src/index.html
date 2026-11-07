@@ -25,7 +25,7 @@
     </div>
   </div>
 </section>
-<section class="pas">{{ img('serizeni.jpg', 'Technik servisu dveří při práci v Praze', sizes='100vw', cls='pas-foto pas-dvere', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
+<section class="pas">{{ img('zarubne-mereni.jpg', 'Technik měří a seřizuje rám dveří v Praze', sizes='100vw', cls='pas-foto pas-dvere', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>S čím vám pomůžeme</h2>
@@ -61,13 +61,12 @@
     <p class="cta"><a class="tlacitko druhe" href="{{ url('cenik-praci/') }}">Ceník servisu</a></p>
   </div>
 </section>
-<section class="sekce citat"><div class="wrap uzky"><blockquote>„Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“</blockquote><p class="mala">Zákaznice</p></div></section>
 <section class="sekce" id="kontakt">
   <div class="wrap dva">
     <div class="kontakty"><h2>Poptávka s fotkou závady</h2><p class="perex">Z fotek umíme obvykle říct příčinu i orientační cenu předem.</p>
       <p><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a></p>
       <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
-      <div class="citaty"><blockquote>„Rychlá reakce, přijel ještě ten den. Dveře zase fungují, jak mají.“<cite>Zákazník</cite></blockquote><blockquote>„Vyřešil problém, který jiní odmítli. Velká spokojenost.“<cite>Zákazník</cite></blockquote><blockquote>„Dveře nešly zavřít, opraveno za 2 hodiny. Super domluva.“<cite>Zákaznice</cite></blockquote></div>
+      <div class="citaty"><blockquote>„Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“<cite>Zákaznice</cite></blockquote><blockquote>„Rychlá reakce, přijel ještě ten den. Dveře zase fungují, jak mají.“<cite>Zákazník</cite></blockquote><blockquote>„Vyřešil problém, který jiní odmítli. Velká spokojenost.“<cite>Zákazník</cite></blockquote><blockquote>„Dveře nešly zavřít, opraveno za 2 hodiny. Super domluva.“<cite>Zákaznice</cite></blockquote></div>
       <p class="mala"><strong>Co vyfotit:</strong> panty, pojezd, zámek, celé křídlo.</p>
       <ul class="body" role="list"><li>Praha a okolí</li><li>Servis zpravidla do 24 hodin</li><li>Urgentní výjezd až do 60 minut</li></ul></div>
     <div>{% include "_formular_foto.html" %}</div>
