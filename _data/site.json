@@ -22,6 +22,7 @@
   "cenove_rozpeti": "od 600 Kč",
   "formular": {"endpoint": "", "demo": true, "predmet": "Poptávka servisu dveří z webu"},
   "nav": [
+    {"text": "Úvod", "href": ""},
     {"text": "Služby", "href": "#sluzby"},
     {"text": "Ceník", "href": "cenik-praci/"},
     {"text": "Poptávka s fotkou", "href": "cenova-kalkulace/"},
