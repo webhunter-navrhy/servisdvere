@@ -181,3 +181,4 @@ h2{font-size:var(--step-4);font-weight:800;letter-spacing:-.02em}
 .karty li .kfoto{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:.4rem;margin-bottom:.6rem;display:block}
 @media (max-width:47.99rem){.hlavicka .wrap{flex-direction:row;align-items:center;gap:.6rem;min-height:56px}.hlavicka .logo{flex:0 0 auto}.hlavicka .logo img{height:30px}.hlavicka nav{flex:1 1 auto;min-width:0;justify-content:flex-start}}
 .pas-foto.pas-dvere{object-position:center 55%}
+.pas-foto.pas-dvere{object-position:center 45%}

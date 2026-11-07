@@ -25,7 +25,7 @@
     </div>
   </div>
 </section>
-<section class="pas">{{ img('zarubne-mereni.jpg', 'Technik měří a seřizuje rám dveří v Praze', sizes='100vw', cls='pas-foto pas-dvere', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
+<section class="pas">{{ img('dvere-sklo-1.jpg', 'Interiérové dveře se sklem po servisu v Praze', sizes='100vw', cls='pas-foto pas-dvere', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>S čím vám pomůžeme</h2>
@@ -75,5 +75,6 @@
 <section class="sekce cervena"><div class="wrap uzky">
   <h2>Specializovaný servis interiérových dveří</h2>
   <p>Servisujeme interiérové dveře a zárubně. Nejsme zámečnická pohotovost ani servis oken, vstupních nebo bezpečnostních dveří. Hledáte nové dveře? Prodej a showroom: <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
+  <p><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a> · <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a> · <a href="https://wa.me/{{ site.kontakt.telefon|replace(' ', '')|replace('+', '') }}" rel="noopener">WhatsApp</a></p>
 </div></section>
 {% endblock %}

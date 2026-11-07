@@ -1,16 +1,17 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Mobilní hlavička (390/360 px) je opravená jen napůl. Kontakt už se nezalamuje, ale hlavička má pořád dva řádky: logo nahoře a menu pod ním, dohromady asi 85–90 px. K tomu je dole lišta Zavolat. Oprava: logo vlevo a hamburger vpravo v jednom řádku, nebo logo a vodorovně posuvné menu ve stejném řádku. Hlavička nejvýš 64 px.",
-    "Fotky v úvodu na PC jsou pořád oříznuté nahodile. Pás fotky pod hero ukazuje podlahu s taškami a hadicí. Pruh „Dveře, které jen drhnou…“ (PC buňka 2) je zatmavený výřez krabic a hlavy technika, dveře na něm skoro nejsou. Na mobilu je ve stejném pruhu pod nadpisem vidět vodoznak „Dveře Šťastný“, který je i na dvou fotkách v galerii. Oprava: do pruhu dát fotku Seřízení dveří nebo Montáž zárubně s object-position na křídlo a pant. Fotky s cizím vodoznakem oříznout nebo vyměnit, pokud se nepotvrdí, že Dveře Šťastný je tatáž firma.",
-    "Velký vystředěný citát „Myslela jsem, že budu muset kupovat nové dveře…“ pořád stojí sám na prázdné bílé ploše (PC buňka 6, mobil 8). Oprava: přesunout ho jako čtvrtou recenzi ke třem citátům u formuláře a samostatnou sekci zrušit. Červená patička na PC (buňka 7) působí jako prázdný pruh: doplnit do ní viditelně telefon 728 252 929, servisdvere@seznam.cz a WhatsApp."
+    "Galerie „Z naší praxe“ (PC buňka 5, mobil buňka 7): fotky Bezfalcové dveře a Seřízení dveří pořád nesou vodoznak cizí značky „Dveře Šťastný – Více než 15 let praxe v oboru“. Spodní část s vodoznakem ořízněte (object-position: top, nižší poměr stran) nebo fotky vyměňte za jiné bez loga. Pokud klient potvrdí, že Dveře Šťastný je tatáž firma, mohou zůstat.",
+    "Červený blok „Specializovaný servis interiérových dveří“ před patičkou (PC buňka 7, mobil buňka 10) pořád nemá žádný kontakt. Do bloku nebo do tmavé patičky pod ním dejte viditelně klikací telefon 728 252 929, servisdvere@seznam.cz a tlačítko WhatsApp. Na PC zároveň zmenšete prázdnou bílou plochu pod tlačítkem Poslat poptávku (asi 150 px vzduchu navíc).",
+    "Pruh „Dveře, které jen drhnou, většinou nejsou na výměnu“ (PC buňka 2): místo krabic je teď výřez rukou s měřidlem, dveře ale na fotce pořád nejsou. Dejte do pruhu fotku Montáž zárubně nebo Dveře se sklem s object-position na hranu křídla a pant, aby pruh ukazoval to, o čem mluví nadpis."
   ],
   "zavazne": [],
   "silne": [
-    "Karty služeb teď mají reálné fotky z firmy (pouzdro, sklo, zárubeň, seřízení) a ceny od z ceníku klienta, takže už nepůsobí jako šablona s piktogramy.",
-    "Jasná myšlenka z oboru „Nejdřív oprava, ne výměna“ prochází hero, kroky i texty služeb. Logo je vlevo v hlavičce a barvy jsou klientova červená a černá.",
-    "Konverze je silná: Zavolat v hero, poptávka s fotkou závady, WhatsApp a lišta Zavolat na mobilu. QA je bez chyb a nic nepřetéká."
+    "Mobilní hlavička je opravená: logo a vodorovně posuvné menu jsou v jednom řádku nízké hlavičky, dole zůstává lišta Zavolat a nic nepřetéká (QA 0 přetečení na všech šířkách).",
+    "Samostatný citát na prázdné ploše zmizel. Recenze z briefu jsou teď čtyři u formuláře, kde podporují poptávku.",
+    "Fotka pod úvodem na PC ukazuje technika při měření s metrem a vodováhou, ne podlahu s taškami. Úvod tak působí řemeslně a věrohodně.",
+    "Brand drží: logo klienta vlevo, červená z loga jako jediný akcent, reálné fotky z jeho zakázek. Ceny a hlavní akce (Zavolat, Poslat fotku závady) jsou jasné do 5 s."
   ],
-  "verdikt": "Karty služeb jsou opravené dobře. Mobilní hlavička, fotky v úvodu a osamocený citát jsou ale opravené jen napůl nebo vůbec, a tak web zůstává na 7. Před odesláním dodělat tři body výše a ověřit vodoznak Dveře Šťastný.",
-  "_hash": "743443793f089fd00f03e3ca64a474ef41dc0556"
+  "verdikt": "Opravená je mobilní hlavička, citát a úvodní fotka. Neopravené zůstávají cizí vodoznak v galerii a kontakty v závěrečném bloku, pruh pod úvodem je opravený jen napůl. Po těchto třech úpravách je web k odeslání.",
+  "_hash": "514081269a05b567e94a2d4fb37920486a8750e7"
 }
