@@ -1,0 +1,17 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Služby (PC 1440): sedm stejných bílých textových karet ve třech sloupcích. Poslední karta „Interiérové dveře – všechny typy“ zůstává sama v řádku a opakuje text z hero, takže sekce působí jako zeď textu. Oprava: tuhle kartu vyřadit, šest karet dá dva plné řádky. Karty odlišit: cenu „od …“ dát velkou nahoru a ke každému typu dveří (pouzdro, stěna, pojezd, bezfalc, zárubeň, panty) přidat jednoduchý liniový nákres v červené barvě loga nebo výřez fotky.",
+    "Jak to funguje a Poptávka (PC): tři kroky v tmavém pásu jsou natlačené v úzkém levém sloupci, pravá polovina je prázdná a tlačítko „Ceník“ visí pod nimi. U poptávky je vlevo jen nadpis s jednou větou a pod ním asi 500 px prázdné plochy. Oprava: kroky rozložit do tří sloupců přes celou šířku. Do levého sloupce poptávky dát telefon, e-mail servisdvere@seznam.cz a 2–3 citace zákazníků z původního webu, které brief obsahuje, např. „Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“.",
+    "Celá stránka (koncept a atmosféra): jediná fotka (technik v hero), jedno písmo Archivo bez kontrastu řezů a béžová plocha s bílými kartami. Výsledek je generická šablona řemeslníka bez nápadu a s titulkou podobnou ostatním webům. Oprava: postavit stránku na hlavní myšlence klienta „Nejdřív oprava, ne výměna“ nebo „Pošlete fotku, řekneme příčinu“. Technika dát jako velkou fotku přes celou šířku, z bloku „Nejsme zámečnická pohotovost“ udělat výraznou sekci v červené barvě klienta a nadpisy zvýraznit řezem nebo druhou rodinou písma."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Hero hned řekne, co firma dělá a kde: „Dveře drhnou nebo nejdou zavřít? Opravíme je.“ Má telefon jako hlavní akci, fotku a tři doložené výhody (nejdřív oprava, cena předem, výjezd do 60 minut).",
+    "Brand sedí: logo klienta je vlevo v hlavičce, akcent je červená z loga a fotka technika je vlastní fotka klienta.",
+    "Poptávka s nahráním fotky závady přesně odpovídá tomu, jak firma pracuje. Na mobilu je stálá lišta „Zavolat 728 252 929“.",
+    "Technicky čisté: QA bez chyb, nic nepřetéká na žádné ze šesti šířek, stránka má 0,4 MB a ke každé službě je podstránka s obsahem z původního webu."
+  ],
+  "verdikt": "Web je funkční, prodejní a drží brand klienta, ale vizuálně je to generická šablona: jediná fotka, zeď stejných karet a poloprázdné sekce, takže by u Rafaela neprošel. Opravit podle tří slabin. Před odesláním ještě ověřit ceny „od …“ proti podstránkám servisdvere.cz, protože brief je mezi doloženými fakty nemá.",
+  "_hash": "0283abf86ded1deba221daf10092cd952c50eeda"
+}

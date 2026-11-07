@@ -1,5 +1,5 @@
 {% extends "_base.html" %}
-{% set titulek = 'Servis interiérových dveří Praha – opravy a seřízení | ' ~ site.nazev %}
+{% set titulek = 'Servis interiérových dveří Praha – opravy a seřízení' %}
 {% set popis = site.popis %}
 {% set cesta = '' %}
 {% block obsah %}
@@ -15,37 +15,42 @@
       </div>
       <ul class="body" role="list"><li>Nejdřív oprava, ne výměna</li><li>Cena odsouhlasená předem</li><li>Urgentní výjezd až do 60 minut</li></ul>
     </div>
-    <div class="hero-foto">{{ img('technik.jpg', 'Technik servisu dveří při práci', sizes='(min-width: 60rem) 30rem, 100vw', eager=true) }}</div>
   </div>
 </section>
+<section class="pas">{{ img('technik.jpg', 'Technik servisu dveří při práci v Praze', sizes='100vw', cls='pas-foto', eager=true) }}<p class="pas-text wrap">Dveře, které jen drhnou, většinou nejsou na výměnu.</p></section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>S čím vám pomůžeme</h2>
     <ul class="karty" role="list">
-      {% for kk in data.sluzby.poradi %}{% set s = data.sluzby.s[kk] %}
-      <li><a href="{{ url(kk ~ '/') }}"><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p><span class="od">od {{ s.cena.od }}</span></a></li>
+      {% for kk in data.sluzby.poradi[:6] %}{% set s = data.sluzby.s[kk] %}
+      <li><a href="{{ url(kk ~ '/') }}"><span class="od"><small>od</small> {{ s.cena.od }}</span><h3>{{ s.kratce }}</h3><p>{{ s.perex }}</p></a></li>
       {% endfor %}
     </ul>
   </div>
 </section>
 <section class="sekce tmava">
-  <div class="wrap uzky">
-    <h2>Jak to funguje</h2>
-    <ol class="kroky" role="list">
-      <li><strong>Pošlete fotku nebo zavolejte.</strong> Stačí krátký popis závady.</li>
-      <li><strong>Řekneme příčinu a cenu.</strong> Často už před výjezdem.</li>
-      <li><strong>Přijedeme a opravíme.</strong> Cenu odsouhlasíte před zahájením práce.</li>
+  <div class="wrap">
+    <h2>Nejdřív oprava, ne výměna</h2>
+    <ol class="kroky tri-sl" role="list">
+      <li><strong>Pošlete fotku nebo zavolejte</strong><span>Stačí krátký popis závady.</span></li>
+      <li><strong>Řekneme příčinu a cenu</strong><span>Často už před výjezdem.</span></li>
+      <li><strong>Přijedeme a opravíme</strong><span>Cenu odsouhlasíte před zahájením práce.</span></li>
     </ol>
-    <p><a class="tlacitko druhe" href="{{ url('cenik-praci/') }}">Ceník</a></p>
+    <p class="cta"><a class="tlacitko druhe" href="{{ url('cenik-praci/') }}">Ceník servisu</a></p>
   </div>
 </section>
+<section class="sekce citat"><div class="wrap uzky"><blockquote>„Myslela jsem, že budu muset kupovat nové dveře. Nakonec stačila oprava.“</blockquote><p class="mala">Zákaznice, z původního webu servisdvere.cz</p></div></section>
 <section class="sekce" id="kontakt">
   <div class="wrap dva">
-    <div><h2>Poptávka s fotkou závady</h2><p class="mala">Z fotek umíme obvykle říct příčinu i orientační cenu předem.</p></div>
+    <div class="kontakty"><h2>Poptávka s fotkou závady</h2><p class="perex">Z fotek umíme obvykle říct příčinu i orientační cenu předem.</p>
+      <p><a class="tlacitko" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat {{ site.kontakt.telefon|replace('+420 ', '') }}</a></p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <ul class="body" role="list"><li>Praha a okolí</li><li>Servis zpravidla do 24 hodin</li><li>Urgentní výjezd až do 60 minut</li></ul></div>
     <div>{% include "_formular_foto.html" %}</div>
   </div>
 </section>
-<section class="sekce svetla"><div class="wrap uzky">
-  <p class="mala">Servisujeme interiérové dveře a zárubně. Nejsme zámečnická pohotovost ani servis oken, vstupních nebo bezpečnostních dveří. Hledáte nové dveře? Prodej a showroom: <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
+<section class="sekce cervena"><div class="wrap uzky">
+  <h2>Specializovaný servis interiérových dveří</h2>
+  <p>Servisujeme interiérové dveře a zárubně. Nejsme zámečnická pohotovost ani servis oken, vstupních nebo bezpečnostních dveří. Hledáte nové dveře? Prodej a showroom: <a href="https://www.interierove-dvere-praha.cz/" rel="noopener">interierove-dvere-praha.cz</a>.</p>
 </div></section>
 {% endblock %}
