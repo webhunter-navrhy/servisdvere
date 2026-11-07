@@ -172,3 +172,7 @@ h2{font-size:var(--step-4);font-weight:800;letter-spacing:-.02em}
 
 .wa{position:fixed;right:16px;bottom:16px;z-index:61;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.3)}
 @media(max-width:760px){.wa{bottom:72px}}
+.galerie{list-style:none;margin:1.5rem 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
+@media (min-width:48rem){.galerie{grid-template-columns:repeat(3,1fr);gap:1rem}}
+.galerie figure{margin:0}.galerie img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:.5rem;display:block}
+.galerie figcaption{font-size:.9rem;margin-top:.4rem}

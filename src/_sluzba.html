@@ -23,7 +23,7 @@
       <ul class="seznam" role="list">{% for z in s.zavady %}<li><h3>{{ z.t }}</h3><p>{{ z.p }}</p></li>{% endfor %}</ul>
     </div>
     <aside class="kar">
-      {{ img('technik.jpg', 'Technik servisu dveří při práci', sizes='(min-width: 60rem) 28rem, 100vw') }}
+      {{ img(s.foto, s.foto_alt, sizes='(min-width: 60rem) 28rem, 100vw') }}
       <p class="cena-pozn"><strong>{{ s.cena.nadpis }}: {% if "–" not in s.cena.od %}od {% endif %}{{ s.cena.od }}</strong><br>{{ s.cena.pozn }}</p>
     </aside>
   </div>
